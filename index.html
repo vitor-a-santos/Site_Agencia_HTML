@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Gnomo Turismo </title>
+    <link rel="stylesheet" href="../GnomoTurismo/CSS/estilo.css">
+
+</head>
+
+
+<header>
+    <!-- Menu INICIO-->
+    <nav class="menu">
+        <a href="index.html"> <img width="150px" src="Imagens/gnomoTur3.png" alt="Gnomo Turismo" width="75px"></a>
+        <a href="pacotes.html"> Pacotes </a>
+        <a href="promocoes.html"> Promoções </a>
+        <a href="contato.html"> Contato </a>
+
+    </nav>
+</header>
+
+<br>
+
+<style>
+    #slider {
+        overflow: hidden;
+        align-items: center;
+        display: flow-root;
+    }
+
+    #slider figure {
+        position: relative;
+        width: 500%;
+        margin: 0;
+        left: 0;
+        animation: 20s slider infinite;
+    }
+
+
+    #slider figure img {
+        width: 20%;
+        float: left;
+    }
+
+    @keyframes slider {
+        0% {
+            left: 0;
+        }
+
+        20% {
+            left: 0;
+        }
+
+        25% {
+            left: -100%;
+        }
+
+        45% {
+            left: -200%;
+        }
+
+        55% {
+            left: -300%;
+        }
+
+        75% {
+            left: -300%;
+        }
+
+        100% {
+            right: -300%;
+        }
+    }
+
+    /** PRODUTOS **/
+</style>
+
+<body>
+    <main>
+        <div id="slider">
+            <figure>
+                <img src="./Imagens/slide1.jpg">
+                <img src="./Imagens/slide2.jpg">
+                <img src="./Imagens/slide3.jpg">
+                <img src="./Imagens/slide4.jpg">
+            </figure>
+
+        </div>
+
+    </main>
+
+
+
+</body>
+<br>
+<footer id="rodape">
+    <p> <img src="./Imagens/forma-de-pagamento.jpg" alt="Formas de Pagamento"> </p>
+    <p> <b> &copy; Recode-Pro 2021 </b> </p>
+</footer>
+
+
+
+
+</html>
